@@ -4,9 +4,10 @@ import Crew from "./pages/crew.jsx"
 import Home from "./pages/Home.jsx"
 import Destination from "./pages/Destination.jsx"
 import Technology from "./pages/Technology.jsx"
-import Logo from "../public/shared/logo.svg"
-import Close from "../public/shared/icon-close.svg"
-import Open from "../public/shared/icon-hamburger.svg"
+import Logo from "./shared/logo.svg"
+import Close from "./shared/icon-close.svg"
+import Open from "./shared/icon-hamburger.svg"
+
 
 
 
