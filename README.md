@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./)
+![](./Screenshot%202023-06-05%20at%2015-04-14%20Frontend%20Mentor%20Space%20tourism%20website.png)
 
 ### Links
 
