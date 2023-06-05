@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
-import Crew from "./pages/crew.jsx"
+import Crew from "./pages/Crew.jsx"
 import Home from "./pages/Home.jsx"
 import Destination from "./pages/Destination.jsx"
 import Technology from "./pages/Technology.jsx"
