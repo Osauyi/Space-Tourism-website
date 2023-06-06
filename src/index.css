@@ -145,6 +145,10 @@ nav > img {
   justify-content: space-between;
 }
 
+.going-in h1{
+  letter-spacing: 4.72px;
+}
+
 .going-in p {
   padding: 25px 75px 0 0;
 }
@@ -392,24 +396,23 @@ p{
 
 }
 
-.planet-links{
-  background-color: transparent;
-  width: 286px;
-  display: flex;
-  justify-content: space-between;
-  float: right;
-  position: absolute;
-  top: 323px;
-  left: 825px;
-  height: 34px;
+.planet-nav{
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-.planet-nav > ul {
+.planet-links{
+  background-color: transparent;
+  width: 18%;
   display: flex;
-  width: 50%;
   justify-content: space-between;
-  list-style: none;
+  height: 34px;
+  grid-row: 1;
+  grid-column: 1;
+  margin-left: auto;
+  margin-right: 24.5%;
 }
+
 
 .planet-nav  button{
   font-family: var(--font-family-BarlowCondensed);
@@ -519,7 +522,9 @@ li{
 }
 
 .planet-links{
-  left: 241px;
+  position: absolute;
+  width: 40%;
+  left: 31%;
   top: 560px;
 }
 }
@@ -553,7 +558,7 @@ li{
   .planet-links{
   left: 69.5px;
   top: 340px;
-  width: 237px;
+  width: 70%;
 }
 
 .planetDetails{
@@ -859,8 +864,8 @@ li{
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  left: 165px;
-  top: 378px;
+  left: 10%;
+  top: 40%;
   height: 300px;
 }
 
@@ -916,16 +921,16 @@ li{
   }
 
   .TechButtons{
-    width: 210px;
+    width: 30%;
     height: 60px;
     flex-direction: row;
-    left: 278px;
-    top: 585px;
+    left: 36%;
+    top: 57%;
   }
 
   .TechButtons button {
-  width: 58px;
-  height: 58px;
+  width: 26%;
+  height: 99%;
   font-size: 24px;
 }
 
